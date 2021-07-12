@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Siri_Reality_API.Service</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Siri-Reality-API.DAL\Siri-Reality-API.DAL.csproj" />
+    <ProjectReference Include="..\Siri-Reality-API.Entities\Siri-Reality-API.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
